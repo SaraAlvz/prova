@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicatto</title>
+    <link rel="stylesheet" href="../../framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+
+        #foto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img:hover{
+            color: #ffffff!important;
+        }
+
+        a{
+            color: rgb(0, 0, 0)!important;
+        }
+
+        a:hover{
+            color: #ffffff!important;
+        }
+
+        h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: #000000;
+        }
+
+        h2{
+            font-family: cursive;
+        }
+
+
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- BARRA DE NAVEGAÇÃO -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid" style="background-color: #ffc8da;">
+                <img src="logo.delicatto.jpg" width="50px" height="50px">
+                <a class="navbar-brand" href="#">Delicatto</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><img width="15" height="15" src="https://img.icons8.com/ios-filled/50/home.png" alt="home"/> Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img width="15" height="15" src="https://img.icons8.com/ios-filled/50/search--v1.png" alt="search--v1"/> Sobre nós</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img width="15" height="15" src="https://img.icons8.com/ios-filled/50/brigadeiro.png" alt="brigadeiro"/>Cardápio</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-dark" type="submit">Busque</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- CONTEÚDOS -->
+    <main class="flex-fill">
+        <section style="background-image: radial-gradient(circle, #f6c6d8, #fea3bf, #ff7e9f, #ff5379, #ff004e);height: 90vh;">
+            <div style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+                <div id="foto">
+                    <h1>D E L I C A T T O</h1>
+                    <h2>a delicadeza do sobor...</h2>
+                    <br>
+                    <div style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+                        <img src="fotoprincipal.jfif" alt="" width="50%" height="50%">
+                    </div>
+                    <br>
+                    <br>
+                    <p><button type="button" class="btn btn-dark">PEÇA AQUI!</button></p>
+                </div>
+                </div>
+        </section>
+    </main>
+    <!-- RODAPÉ -->
+    <footer class="footer mto-auto" style=" display: flex;justify-content: center;align-items: center;flex-direction: column; background-color: #ffaec9;">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Telefone: 19 996399653</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></iframe>Endereço: Rua dos bobos, n 0</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29511.53061285039!2d-47.575859208675226!3d-22.39356923242514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7db9091809b7b%3A0xe4e11c9ea6213932!2sDel%C3%ADcias%20Gourmet!5e0!3m2!1spt-BR!2sbr!4v1755806747953!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </ul>
+
+    </footer>
+    <script src="../../framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
